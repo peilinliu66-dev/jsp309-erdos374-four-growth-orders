@@ -1,0 +1,17 @@
+{
+  "schema": "jsp309.upstream-proof-overlay.v1",
+  "pinned_commit": "91604dfc9733555f0b762594cd434450728d3d8c",
+  "module": "Tao2026.SylvesterSchurHundred",
+  "relative_path": "Tao2026/SylvesterSchurHundred.lean",
+  "before_sha256": "8a01f7ca2f7d91053315b8e565d504d2d5d394673c976240b5fc8c2a6185461a",
+  "before_bytes": 2424,
+  "after_sha256": "1ce786579dda6b1487de56d80bb4577839630a4e8a2240426810fe44e5367d27",
+  "after_bytes": 3755,
+  "replacement_before": "  decide",
+  "replacement_after": "first factorial closed certificate; second explicit five-prime construction",
+  "replacement_count": 2,
+  "statement_or_assumption_changes": false,
+  "dependency_version_changes": false,
+  "native_decide": false,
+  "new_axioms": false
+}

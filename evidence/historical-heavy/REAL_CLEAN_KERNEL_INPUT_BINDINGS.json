@@ -1,0 +1,86 @@
+{
+  "schema": "jsp309.real-clean-kernel-inputs.v1",
+  "module": "RiemannZeta.GuthMaynard.HughesYoungActiveComplementSourceLine",
+  "prepared_utc": "2026-10-03T11:48:59.744237+00:00",
+  "files": {
+    "source": {
+      "path": "D:\\L309\\Riemann Zeta\\9. Zero Density, Large Values and Prime Transfer\\73 Tao, 2026\\Dependencies\\GafniTaoFrozen\\FrozenFoundation\\RiemannZeta\\GuthMaynard\\HughesYoungActiveComplementSourceLine.lean",
+      "bytes": 415362,
+      "mtime_ns": 1791006577653814600,
+      "sha256": "a39dd8053b3c5ecfe24d673fddb4965e8d355d2d584dc1ef0a3407e3a14f6a9b"
+    },
+    "setup": {
+      "path": "D:\\CodexBuilds\\JSP000309_20261003\\output\\gafnitao\\ir\\RiemannZeta\\GuthMaynard\\HughesYoungActiveComplementSourceLine.setup.json",
+      "bytes": 5416431,
+      "mtime_ns": 1791025759753530800,
+      "sha256": "20fe1886ef17034a30cfcbfdb78738d4ebb8caf3d0b0c56929ef2605a3b22c20"
+    },
+    "olean": {
+      "path": "D:\\CodexBuilds\\JSP000309_20261003\\output\\gafnitao\\lib\\lean\\RiemannZeta\\GuthMaynard\\HughesYoungActiveComplementSourceLine.olean",
+      "bytes": 572631344,
+      "mtime_ns": 1791026426577745300,
+      "sha256": "a48abb2c7747ff57eaa891d2cee634bdd2c13b2a70f056b405569fd110bbc52b"
+    },
+    "leanchecker": {
+      "path": "C:\\Users\\28983\\.elan\\toolchains\\leanprover--lean4---v4.30.0\\bin\\leanchecker.exe",
+      "bytes": 118784,
+      "mtime_ns": 1779794376000000000,
+      "sha256": "fa9748984799f272d3630026cca4230312b75cca5dfa5215883f8198a67df1bf"
+    },
+    "native_manifest": {
+      "path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\lakefront309\\REAL_NATIVE_INPUT_BINDINGS.json",
+      "bytes": 6862,
+      "mtime_ns": 1791024415856344100,
+      "sha256": "bc42451631aa38f91cef054478ecc444b267bc6684da0d1f93d100a9a578b454"
+    },
+    "compile_result": {
+      "path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\build309\\REAL_HEAVY_COMPILE_RESULT.json",
+      "bytes": 66234,
+      "mtime_ns": 1791026665668861900,
+      "sha256": "fb35589d5468ef4332283c15c646e206105c1ee8926de8f261d2c729c49bc2d9"
+    },
+    "resolver_source": {
+      "path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\adapted309\\KernelResolverProbe.lean",
+      "bytes": 1022,
+      "mtime_ns": 1791019575874787800,
+      "sha256": "9ad8610c61c8b020c57b96fdc41411d3d7803fabbe90f37068fb4fc20b9baf03"
+    },
+    "resolver_request": {
+      "path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\build309\\REAL_KERNEL_RESOLVER_NAMES.json",
+      "bytes": 70,
+      "mtime_ns": 1791028135172940800,
+      "sha256": "89dd9b1249283a3a9a388ad53718be8934ebf741739d638662cc32887e63fbc1"
+    },
+    "resolver_report": {
+      "path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\build309\\REAL_KERNEL_RESOLVER_REPORT.json",
+      "bytes": 314,
+      "mtime_ns": 1791028139582133600,
+      "sha256": "84dbde0e729044ad891a331b79735d4297eafd02085e5dbe00826d4e9437e03a"
+    }
+  },
+  "effective_lean_path": "D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\LeanArchitect\\.lake\\build\\lib\\lean;D:\\CodexBuilds\\JSP000309_20261003\\output\\pnt\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\Cli\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\batteries\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\Qq\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\aesop\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\proofwidgets\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\importGraph\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\LeanSearchClient\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\plausible\\.lake\\build\\lib\\lean;D:\\CodexBuilds\\JSP000309_20261003\\output\\gafnitao\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\mathlib\\.lake\\build\\lib\\lean;D:\\L309\\Riemann Zeta\\9. Zero Density, Large Values and Prime Transfer\\73 Tao, 2026\\Extension\\.lake\\build\\lib\\lean;c:\\Users\\28983\\.elan\\toolchains\\leanprover--lean4---v4.30.0\\lib\\lean",
+  "resolved_olean": "D:\\CodexBuilds\\JSP000309_20261003\\output\\gafnitao\\lib\\lean\\RiemannZeta\\GuthMaynard\\HughesYoungActiveComplementSourceLine.olean",
+  "command": [
+    "C:/Users/28983/.elan/toolchains/leanprover--lean4---v4.30.0/bin/leanchecker.exe",
+    "--verbose",
+    "RiemannZeta.GuthMaynard.HughesYoungActiveComplementSourceLine"
+  ],
+  "environment": {
+    "LEAN_PATH": "D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\LeanArchitect\\.lake\\build\\lib\\lean;D:\\CodexBuilds\\JSP000309_20261003\\output\\pnt\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\Cli\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\batteries\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\Qq\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\aesop\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\proofwidgets\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\importGraph\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\LeanSearchClient\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\plausible\\.lake\\build\\lib\\lean;D:\\CodexBuilds\\JSP000309_20261003\\output\\gafnitao\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\mathlib\\.lake\\build\\lib\\lean;D:\\L309\\Riemann Zeta\\9. Zero Density, Large Values and Prime Transfer\\73 Tao, 2026\\Extension\\.lake\\build\\lib\\lean;c:\\Users\\28983\\.elan\\toolchains\\leanprover--lean4---v4.30.0\\lib\\lean",
+    "LEAN_NUM_THREADS": "1"
+  },
+  "resource_preflight": {
+    "physical_total_bytes": 34142187520,
+    "physical_available_bytes": 16008716288,
+    "commit_limit_bytes": 53469540352,
+    "commit_available_bytes": 16367652864,
+    "commit_used_bytes": 37101887488,
+    "memory_load_percent": 53,
+    "commit_source": "GetPerformanceInfo global CommitLimit-CommitTotal times PageSize",
+    "global_memory_status_ex_total_page_file_bytes": 53469540352,
+    "global_memory_status_ex_available_page_file_bytes": 16367652864,
+    "global_memory_status_ex_page_file_scope": "Calling-process available commit; not the global guard threshold"
+  },
+  "live_lean_preflight": [],
+  "full_root_build_claim": false
+}

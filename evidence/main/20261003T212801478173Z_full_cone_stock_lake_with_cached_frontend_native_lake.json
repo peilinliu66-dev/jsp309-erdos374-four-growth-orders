@@ -1,0 +1,35 @@
+{
+  "label": "full_cone_stock_lake_with_cached_frontend_native_lake",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-t0",
+    "-j3",
+    "-DElab.async=false",
+    "--load-dynlib=C:\\Users\\28983\\.elan\\toolchains\\leanprover--lean4---v4.30.0\\bin\\libLake_shared.dll",
+    "--run",
+    "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\lakefront309\\LakeFrontend309.lean",
+    "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\lakefront309\\LauncherReal.native.request.json"
+  ],
+  "cwd": "D:\\L309\\Riemann Zeta\\9. Zero Density, Large Values and Prime Transfer\\73 Tao, 2026\\Extension",
+  "cwd_argument": "D:\\L309\\Riemann Zeta\\9. Zero Density, Large Values and Prime Transfer\\73 Tao, 2026\\Extension",
+  "started_utc": "2026-10-03T21:28:01.478407+00:00",
+  "status": "completed",
+  "log_path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\build309\\20261003T212801478173Z_full_cone_stock_lake_with_cached_frontend_native_lake.log",
+  "environment": {
+    "LEAN_NUM_THREADS": "3",
+    "MATHLIB_CACHE_DIR": "D:/CodexBuilds/JSP000309_20261003/mathlib_cache",
+    "LAKE_ARTIFACT_CACHE": "false",
+    "LAKEFRONT309_CONFIG": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\lakefront309\\dispatcher_config309.real.json",
+    "LAKEFRONT309_BRIDGE_POLICY": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\lakefront309\\bridge_policy309.real.json",
+    "LAKEFRONT309_BRIDGE_POLICY_SHA256": "81b527f901fcf60fc0eef41764f27883e4bc2775770ba968e70de67a178a835a"
+  },
+  "pid": 21316,
+  "last_durable_heartbeat_utc": "2026-10-03T21:29:01.521302+00:00",
+  "log_bytes_at_heartbeat": 120101,
+  "natural_exit_code": 0,
+  "elapsed_seconds": 71.34756870009005,
+  "ended_utc": "2026-10-03T21:29:12.828344+00:00",
+  "log_sha256": "b0549bca6a8cc62750db87c6cf8e2759ac2b6f415bfab334e923d333b8a85e1f"
+}

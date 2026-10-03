@@ -1,0 +1,1902 @@
+{
+  "schema": "jsp309.real-heavy-compile-result.v1",
+  "status": "ACTUAL_ORIGINAL_HEAVY_COMPILE_NATURAL_ZERO_CLEAN_STOCK_LAKE_BUILT_FULL_ROOT_STILL_RUNNING",
+  "utc": "2026-10-03T11:24:25.667229+00:00",
+  "module": "RiemannZeta.GuthMaynard.HughesYoungActiveComplementSourceLine",
+  "call_record": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\lakefront309\\calls_real_candidate\\20261003T110920019455Z_2976_cce80e6edbee4a55b7e7a7850d1b3b7e\\call.json",
+  "call_sha256": "9d6e9937e198eccc8a499c7d2fd4e5cda1f5c6905bbb857dde07b26c9f29447b",
+  "child_natural_exit_code": 0,
+  "dispatcher_exit_code": 0,
+  "raw_fatal_gate": {
+    "schema": "lakefront309.fatal_raw_gate.v2",
+    "policy": "\\bPANIC\\b|\\(deterministic\\)\\s+timeout\\b|\\binvalid\\s+MessageData\\b",
+    "case_insensitive": true,
+    "ansi_normalization": "Standard CSI sequences removed across chunks; other escapes preserved",
+    "entire_raw_files_scanned": true,
+    "passed": true,
+    "scans": [
+      {
+        "stream": "stdout",
+        "reached_eof": true,
+        "path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\lakefront309\\calls_real_candidate\\20261003T110920019455Z_2976_cce80e6edbee4a55b7e7a7850d1b3b7e\\stdout.raw.log",
+        "bytes_scanned": 118271,
+        "sha256": "96c462676dd721e814a9a938961871c79c1bf9e7b8c24562cea1e5268de228ec",
+        "fatal_matches": []
+      },
+      {
+        "stream": "stderr",
+        "reached_eof": true,
+        "path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\lakefront309\\calls_real_candidate\\20261003T110920019455Z_2976_cce80e6edbee4a55b7e7a7850d1b3b7e\\stderr.raw.log",
+        "bytes_scanned": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "fatal_matches": []
+      },
+      {
+        "stream": "merged",
+        "reached_eof": true,
+        "path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\lakefront309\\calls_real_candidate\\20261003T110920019455Z_2976_cce80e6edbee4a55b7e7a7850d1b3b7e\\child.raw.log",
+        "bytes_scanned": 118271,
+        "sha256": "96c462676dd721e814a9a938961871c79c1bf9e7b8c24562cea1e5268de228ec",
+        "fatal_matches": []
+      }
+    ],
+    "fatal_matches": [],
+    "scan_errors": []
+  },
+  "validation_errors": [],
+  "source_setup_driver_stock_bridge_unchanged": true,
+  "genuine_output_artifacts": {
+    "olean": {
+      "path": "D:\\CodexBuilds\\JSP000309_20261003\\output\\gafnitao\\lib\\lean\\RiemannZeta\\GuthMaynard\\HughesYoungActiveComplementSourceLine.olean",
+      "exists": true,
+      "bytes": 572631344,
+      "sha256": "a48abb2c7747ff57eaa891d2cee634bdd2c13b2a70f056b405569fd110bbc52b"
+    },
+    "ilean": {
+      "path": "D:\\CodexBuilds\\JSP000309_20261003\\output\\gafnitao\\lib\\lean\\RiemannZeta\\GuthMaynard\\HughesYoungActiveComplementSourceLine.ilean",
+      "exists": true,
+      "bytes": 1443256,
+      "sha256": "884497f9f535dc74617b8307439de17c79677dfdcc32396ee0a01f91931ea9ee"
+    },
+    "c": {
+      "path": "D:\\CodexBuilds\\JSP000309_20261003\\output\\gafnitao\\ir\\RiemannZeta\\GuthMaynard\\HughesYoungActiveComplementSourceLine.c",
+      "exists": true,
+      "bytes": 1511,
+      "sha256": "94714a4b36f30042fc2260e26030c7c23e73f5d86a52bb34224fd050c377c754"
+    }
+  },
+  "genuine_provisional_artifacts": {
+    "olean": {
+      "path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\lakefront309\\calls_real_candidate\\20261003T110920019455Z_2976_cce80e6edbee4a55b7e7a7850d1b3b7e\\heavy.provisional.olean",
+      "exists": true,
+      "bytes": 572631344,
+      "sha256": "a48abb2c7747ff57eaa891d2cee634bdd2c13b2a70f056b405569fd110bbc52b"
+    },
+    "ilean": {
+      "path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\lakefront309\\calls_real_candidate\\20261003T110920019455Z_2976_cce80e6edbee4a55b7e7a7850d1b3b7e\\heavy.provisional.olean.ilean",
+      "exists": true,
+      "bytes": 1443256,
+      "sha256": "884497f9f535dc74617b8307439de17c79677dfdcc32396ee0a01f91931ea9ee"
+    },
+    "c": {
+      "path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\lakefront309\\calls_real_candidate\\20261003T110920019455Z_2976_cce80e6edbee4a55b7e7a7850d1b3b7e\\heavy.provisional.olean.c",
+      "exists": true,
+      "bytes": 1511,
+      "sha256": "94714a4b36f30042fc2260e26030c7c23e73f5d86a52bb34224fd050c377c754"
+    }
+  },
+  "frontend_result": {
+    "path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\lakefront309\\calls_real_candidate\\20261003T110920019455Z_2976_cce80e6edbee4a55b7e7a7850d1b3b7e\\frontend.report.json",
+    "sha256": "9302dee0b1100cafb3210064263a0ea8807086a5f13aa554f925588306d0eef1",
+    "report": {
+      "trust_level": 0,
+      "symbol_frequency_metadata_warmed": true,
+      "status": "prototype_completed_not_acceptance",
+      "source_bytes": 415362,
+      "skip_kernel_tc": false,
+      "post_export_cached_axioms": true,
+      "module_system": false,
+      "module": "RiemannZeta.GuthMaynard.HughesYoungActiveComplementSourceLine",
+      "metadata_max_heartbeats": 20000000,
+      "metadata_export_heartbeat_baseline_reset": true,
+      "kernel_declarations": {
+        "proof_body_equality_checked": false,
+        "module_index": 10910,
+        "inventory_signature_equivalent": true,
+        "entries": [
+          {
+            "name": "RiemannZeta.GuthMaynard.aestronglyMeasurable_heightWeight_mul_dfiEquation27CentralSeries_lowerBoundary_joint",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.aestronglyMeasurable_heightWeight_mul_dfiEquation27CentralSeries_swappedLowerBoundary_joint",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.aestronglyMeasurable_heightWeight_mul_hughesYoungFiniteLowerBoundarySignedCentralAtHeight_joint",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.continuous_uncurry_hughesYoungHeightFourierInput",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27C_const_mul_weight",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27C_heightWeight_mul_nonLowerActiveComplement_boundaryRect_zero",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27C_nonLowerActiveComplementComplex_boundaryRect_zero",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27C_nonLowerActiveComplementMellinShapeComplex_dilate_eq",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27C_nonLowerActiveComplementMellinShapeComplex_dilate_eq_for_rectangle",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27C_scalar_mul_nonLowerActiveComplement_boundaryRect_zero",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27C_sub_weight",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27CentralIntegral_const_mul_weight",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27CentralIntegral_heightWeight_mul_nonLowerActiveComplement_boundaryRect_zero",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27CentralIntegral_heightWeight_mul_nonLowerActiveComplement_eq_dilated",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27CentralIntegral_scalar_mul_nonLowerActiveComplement_boundaryRect_zero",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27CentralIntegral_scalar_mul_nonLowerActiveComplement_eq_dilated",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27CentralIntegral_sub_weight",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27CentralSeries_const_mul_weight",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27CentralSeries_heightWeight_mul_nonLower_eq",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27CentralSeries_heightWeight_mul_swappedNonLower_eq",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27CentralSeries_sub_weight",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27CentralSummand_const_mul_weight",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27CentralSummand_pureReduced_eq_contourTerm",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27CentralSummand_sub_weight",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiEquation27CentralSummand_swappedPureReduced_eq_contourTerm",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiSignedCentralSeries_const_mul_weight",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiSignedCentralSeries_sub_weight",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.dfiSwapWeight_hughesYoungNonLowerActiveComplementMellinWeightComplex",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.differentiableAt_dfiEquation27C_nonLowerActiveComplementComplex",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.differentiableAt_hughesYoungNonLowerActiveComplementMellinWeightComplex",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.differentiableAt_hughesYoungReducedMellinScaleConstantComplex",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.differentiableOn_hughesYoungNonLowerActiveComplementMellinWeightComplex_rectangle",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_norm_hughesYoungCriticalAffineBetaIntegrand_le_awayZeroStripMajorant",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_norm_hughesYoungCriticalAffineBetaIntegrand_le_verticalMajorant",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_norm_hughesYoungReducedMellinScaleConstantComplex_bottom_le_gaussian",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_norm_hughesYoungReducedMellinScaleConstantComplex_horizontal_le_gaussian",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_norm_hughesYoungReducedMellinScaleConstantComplex_horizontal_le_gaussian_abs",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_norm_hughesYoungScalarNonLowerActiveComplementPositiveCentralSeriesComplex_horizontal_le_gaussian",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_norm_integral_hughesYoungScalarNonLowerActiveComplementPositiveCentralSeriesComplex_horizontal_le_gaussian",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_norm_nonLowerActiveComplement_horizontal_dilate_le_majorant",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_norm_nonLowerActiveComplement_vertical_dilate_le_majorant",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_norm_scalar_nonLowerActiveComplement_horizontal_dilate_le_gaussianMajorant",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_norm_scalar_nonLowerActiveComplement_horizontal_dilate_le_majorant",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_norm_scalar_nonLowerActiveComplement_vertical_dilate_le_majorant",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_uniform_norm_hughesYoungCriticalAffineBetaIntegrand_compact",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_uniform_norm_hughesYoungDilationPowerPair",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_uniform_norm_hughesYoungDilationPowerPair_all_horizontal",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_uniform_norm_hughesYoungDilationPowerPair_vertical",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_uniform_norm_hughesYoungNonLowerActiveComplementPositiveCentralSummandComplex_horizontal_le",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_uniform_norm_hughesYoungNonLowerActiveComplementPositiveCentralSummandComplex_vertical_le",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_uniform_norm_hughesYoungReducedMellinScaleConstantComplex_horizontal",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_uniform_norm_hughesYoungReducedMellinScaleConstantComplex_vertical",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_uniform_norm_hughesYoungScalarNonLowerActiveComplementPositiveCentralSummandComplex_horizontal_le",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_uniform_norm_hughesYoungScalarNonLowerActiveComplementPositiveCentralSummandComplex_horizontal_le_gaussian",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.exists_uniform_norm_hughesYoungScalarNonLowerActiveComplementPositiveCentralSummandComplex_vertical_le",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.heightWeight_mul_dfiSignedCentralSeries_nonLower_eq",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.heightWeight_mul_hughesYoungNonLowerActiveComplementSignedCentralAtHeight_eq",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.heightWeight_mul_hughesYoungNonLowerActiveComplementSignedCentralComplex_boundaryRect_zero",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.heightWeight_mul_hughesYoungNonLowerActiveComplementSignedCentralComplex_neg_ofNat",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.heightWeight_mul_hughesYoungNonLowerActiveComplementSignedCentralComplex_ofNat",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.heightWeight_mul_hughesYoungNonLowerActiveComplementSignedSourceComplex_boundaryRect_zero",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungAwayZeroBetaStripMajorant",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungCriticalAffineBetaFullStripMajorant",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungCriticalAffineBetaFullStripMajorant_nonneg",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungLowerBoundarySeriesTermMajorant",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungLowerBoundarySeriesTermMajorant_nonneg",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementIntegratedCentralSource",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementIntegratedCentralSource_eq",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementMellinShapeComplex",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementMellinWeightComplex",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementMellinWeightComplex_boundaryRect_zero",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementMellinWeightComplex_eq_scale_mul_shape",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementMellinWeightComplex_vertical",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementMultiplier_le_one",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementMultiplier_le_one_source",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementMultiplier_swap",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementNegativeCentralSeriesComplex",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementNegativeCentralSeriesComplex_boundaryRect_zero",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementNegativeCentralSeriesComplex_eq_scalarPositive",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementPositiveCentralPartialSumComplex",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementPositiveCentralPartialSumComplex_boundaryRect_zero",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementPositiveCentralSeriesComplex",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementPositiveCentralSeriesComplex_boundaryRect_zero",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementPositiveCentralSeriesComplex_eq_dfiEquation27CentralSeries",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementPositiveCentralSummandComplex",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementPositiveCentralSummandComplex_boundaryRect_zero",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementReducedMellinWeight_eq_multiplier_mul_pure",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementReducedMellinWeight_eq_pure_sub_lower_sub_active",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementSignedCentralAtHeight",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementSignedCentralComplex",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementSignedSourceComplex",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementSignedSourceComplex_vertical",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementSignedSourceComplex_vertical_eq",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungReducedMellinScaleConstantComplex",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungReducedMellinScaleConstantComplex_eq_static_mul_contour",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungReducedMellinScaleConstantComplex_swap",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungReducedMellinScaleConstantComplex_vertical",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungScalarNonLowerActiveComplementPositiveCentralSeriesComplex",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungScalarNonLowerActiveComplementPositiveCentralSeriesComplex_boundaryRect_zero",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungScalarNonLowerActiveComplementPositiveCentralSeriesComplex_eq_dfiEquation27CentralSeries",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungScalarNonLowerActiveComplementPositiveCentralSummandComplex",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungScalarNonLowerActiveComplementPositiveCentralSummandComplex_boundaryRect_zero",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrableOn_hughesYoungCriticalAffineBetaIntegrand_away_zero",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_dfiEquation27C_heightWeight_mul_activeReassembled",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_dfiEquation27C_heightWeight_mul_lowerBoundary",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_dfiEquation27C_heightWeight_mul_nonLowerComplement",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_dfiEquation27C_heightWeight_mul_nonLowerComplement_rightStrip",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_dfiEquation27C_heightWeight_mul_pureReduced",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_dfiEquation27C_heightWeight_mul_swappedActiveReassembled",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_dfiEquation27C_heightWeight_mul_swappedLowerBoundary",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_dfiEquation27C_heightWeight_mul_swappedNonLowerComplement",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_dfiEquation27C_heightWeight_mul_swappedNonLowerComplement_rightStrip",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_dfiEquation27C_heightWeight_mul_swappedPureReduced",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_heightWeight_mul_dfiEquation27CentralSeries_lowerBoundary_joint",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_heightWeight_mul_dfiEquation27CentralSeries_swappedLowerBoundary_joint",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_heightWeight_mul_hughesYoungFiniteLowerBoundarySignedCentralAtHeight_joint",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_hughesYoungAwayZeroBetaStripMajorant",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_hughesYoungCriticalAffineBetaFullStripMajorant",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_nonLowerActiveComplement_horizontal_dilate_joint",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_nonLowerActiveComplement_vertical_dilate_joint",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_nonLowerMultiplier_mul_dfiEquation27C_pureReducedStaticWeight",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_scalar_nonLowerActiveComplement_horizontal_dilate_joint",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_scalar_nonLowerActiveComplement_vertical_dilate_joint",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_swappedNonLowerMultiplier_mul_dfiEquation27C_pureReducedStaticWeight",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_uncurry_hughesYoungHeightFourierInput",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integral_Ioi_mul_eq_mul_integral_dilate",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integral_dfiEquation27C_heightWeight_mul_nonLowerActiveComplement_dilated_boundaryRect_zero",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integral_dfiEquation27C_scalar_mul_nonLowerActiveComplement_dilated_boundaryRect_zero",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integral_hughesYoungCriticalAffineBetaFullStripMajorant_eq",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integral_hughesYoungNonLowerActiveComplementPositiveCentralSeriesComplex_horizontal_eq_tsum",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integral_hughesYoungNonLowerActiveComplementPositiveCentralSeriesComplex_vertical_eq_tsum",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integral_hughesYoungNonLowerActiveComplementSignedCentralAtHeight_eq",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integral_hughesYoungScalarNonLowerActiveComplementPositiveCentralSeriesComplex_horizontal_eq_tsum",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integral_hughesYoungScalarNonLowerActiveComplementPositiveCentralSeriesComplex_vertical_eq_tsum",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integral_intervalIntegral_hughesYoungFiniteLowerBoundarySignedCentralAtHeight_swap",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.intervalIntegrable_heightWeight_mul_hughesYoungNonLowerActiveComplementSignedCentralComplex_horizontal",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.intervalIntegrable_heightWeight_mul_hughesYoungNonLowerActiveComplementSignedCentralComplex_vertical",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.intervalIntegrable_hughesYoungNonLowerActiveComplementNegativeCentralSeriesComplex_horizontal",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.intervalIntegrable_hughesYoungNonLowerActiveComplementNegativeCentralSeriesComplex_vertical",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.intervalIntegrable_hughesYoungNonLowerActiveComplementPositiveCentralSeriesComplex_horizontal",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.intervalIntegrable_hughesYoungNonLowerActiveComplementPositiveCentralSeriesComplex_vertical",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.intervalIntegrable_hughesYoungNonLowerActiveComplementPositiveCentralSummandComplex_horizontal",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.intervalIntegrable_hughesYoungNonLowerActiveComplementPositiveCentralSummandComplex_vertical",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.intervalIntegrable_hughesYoungScalarNonLowerActiveComplementPositiveCentralSeriesComplex_horizontal",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.intervalIntegrable_hughesYoungScalarNonLowerActiveComplementPositiveCentralSeriesComplex_vertical",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.intervalIntegrable_hughesYoungScalarNonLowerActiveComplementPositiveCentralSummandComplex_horizontal",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.intervalIntegrable_hughesYoungScalarNonLowerActiveComplementPositiveCentralSummandComplex_vertical",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.norm_heightWeight_mul_dfiEquation27CentralSeries_lowerBoundary_le",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.norm_heightWeight_mul_dfiEquation27CentralSeries_swappedLowerBoundary_le",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.norm_hughesYoungCriticalAffineBetaIntegrand_le_fullStripMajorant",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.norm_hughesYoungCriticalAffineBetaIntegrand_le_lowerMajorant",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.norm_hughesYoungDilationPowerPair_horizontal",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.norm_hughesYoungLowerBoundaryCentralSeriesHeightTerm_le_fixed",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.norm_hughesYoungLowerBoundaryCentralSeriesHeightTerm_le_majorant_mul_heightInput",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.norm_hughesYoungReducedMellinStaticComplex_horizontal",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.norm_hughesYoungSwappedLowerBoundaryCentralSeriesHeightTerm_le_fixed",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.norm_hughesYoungSwappedLowerBoundaryCentralSeriesHeightTerm_le_majorant_mul_heightInput",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.one_div_dyadicRatio_lt_coordinates_of_nonLowerMultiplier_ne_zero",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.stronglyMeasurable_hughesYoungLowerBoundaryCentralHeightIntegrand_joint",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.stronglyMeasurable_hughesYoungLowerBoundaryCentralSeriesHeightTerm_joint",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.stronglyMeasurable_hughesYoungSwappedLowerBoundaryCentralHeightIntegrand_joint",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.stronglyMeasurable_hughesYoungSwappedLowerBoundaryCentralSeriesHeightTerm_joint",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_dfiEquation27CentralSummand_heightWeight_mul_activeReassembled",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_dfiEquation27CentralSummand_heightWeight_mul_fullDyadic",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_dfiEquation27CentralSummand_heightWeight_mul_lowerBoundary",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_dfiEquation27CentralSummand_heightWeight_mul_pure",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_dfiEquation27CentralSummand_heightWeight_mul_swappedActiveReassembled",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_dfiEquation27CentralSummand_heightWeight_mul_swappedFullDyadic",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_dfiEquation27CentralSummand_heightWeight_mul_swappedLowerBoundary",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_dfiEquation27CentralSummand_heightWeight_mul_swappedPure",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_dfiEquation27CentralSummand_pureReduced",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_dfiEquation27CentralSummand_swappedPureReduced",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_hughesYoungLowerBoundaryCentralSeriesHeightTerm_fixed",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_hughesYoungLowerBoundarySeriesTermMajorant",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_hughesYoungSwappedLowerBoundaryCentralSeriesHeightTerm_fixed",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_integral_norm_hughesYoungNonLowerActiveComplementPositiveCentralSummandComplex_horizontal",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_integral_norm_hughesYoungNonLowerActiveComplementPositiveCentralSummandComplex_vertical",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_integral_norm_hughesYoungScalarNonLowerActiveComplementPositiveCentralSummandComplex_horizontal",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_integral_norm_hughesYoungScalarNonLowerActiveComplementPositiveCentralSummandComplex_vertical",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_intervalIntegral_hughesYoungNonLowerActiveComplementPositiveCentralSummandComplex_horizontal",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_intervalIntegral_hughesYoungNonLowerActiveComplementPositiveCentralSummandComplex_vertical",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_intervalIntegral_hughesYoungScalarNonLowerActiveComplementPositiveCentralSummandComplex_horizontal",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.summable_intervalIntegral_hughesYoungScalarNonLowerActiveComplementPositiveCentralSummandComplex_vertical",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.tendsto_integral_heightWeight_mul_hughesYoungNonLowerActiveComplementSignedCentralComplex_bottom_atTop",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.tendsto_integral_heightWeight_mul_hughesYoungNonLowerActiveComplementSignedCentralComplex_horizontal_atTop",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.tendsto_integral_heightWeight_mul_hughesYoungNonLowerActiveComplementSignedSourceComplex_bottom_atTop",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.tendsto_integral_heightWeight_mul_hughesYoungNonLowerActiveComplementSignedSourceComplex_horizontal_atTop",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.tendsto_integral_hughesYoungNonLowerActiveComplementNegativeCentralSeriesComplex_bottom_atTop",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.tendsto_integral_hughesYoungNonLowerActiveComplementNegativeCentralSeriesComplex_horizontal_atTop",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.tendsto_integral_hughesYoungNonLowerActiveComplementPositiveCentralSeriesComplex_bottom_atTop",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.tendsto_integral_hughesYoungNonLowerActiveComplementPositiveCentralSeriesComplex_horizontal_atTop",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.tendsto_integral_hughesYoungScalarNonLowerActiveComplementPositiveCentralSeriesComplex_bottom_atTop",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.tendsto_integral_hughesYoungScalarNonLowerActiveComplementPositiveCentralSeriesComplex_horizontal_atTop",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "_private.RiemannZeta.GuthMaynard.HughesYoungActiveComplementSourceLine.0.RiemannZeta.GuthMaynard.nonLowerActiveComplementMultiplier_le_one_for_rectangle",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.aestronglyMeasurable_heightWeight_mul_hughesYoungFiniteLowerBoundarySignedCentralAtHeight_joint._proof_1",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.aestronglyMeasurable_heightWeight_mul_hughesYoungFiniteLowerBoundarySignedCentralAtHeight_joint._proof_2",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.heightWeight_mul_dfiSignedCentralSeries_nonLower_eq._proof_1",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.heightWeight_mul_dfiSignedCentralSeries_nonLower_eq._proof_2",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungAwayZeroBetaStripMajorant.eq_1",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungCriticalAffineBetaFullStripMajorant._proof_1",
+            "axioms": [
+              "propext"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungCriticalAffineBetaFullStripMajorant._proof_2",
+            "axioms": [
+              "propext"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungCriticalAffineBetaFullStripMajorant._proof_3",
+            "axioms": [
+              "propext"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungCriticalAffineBetaFullStripMajorant._proof_4",
+            "axioms": [
+              "propext"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungCriticalAffineBetaFullStripMajorant._proof_5",
+            "axioms": [
+              "propext"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungCriticalAffineBetaFullStripMajorant._proof_6",
+            "axioms": [
+              "propext"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungCriticalAffineBetaFullStripMajorant.eq_1",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungLowerBoundarySeriesTermMajorant._proof_1",
+            "axioms": [
+              "propext"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungLowerBoundarySeriesTermMajorant._proof_2",
+            "axioms": [
+              "propext"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungLowerBoundarySeriesTermMajorant.eq_1",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementMellinWeightComplex.eq_1",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementPositiveCentralSeriesComplex.eq_1",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementPositiveCentralSummandComplex.eq_1",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungNonLowerActiveComplementSignedSourceComplex.eq_1",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungScalarNonLowerActiveComplementPositiveCentralSeriesComplex.eq_1",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.hughesYoungScalarNonLowerActiveComplementPositiveCentralSummandComplex.eq_1",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_heightWeight_mul_hughesYoungFiniteLowerBoundarySignedCentralAtHeight_joint._proof_1",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integrable_heightWeight_mul_hughesYoungFiniteLowerBoundarySignedCentralAtHeight_joint._proof_2",
+            "axioms": [
+              "propext",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integral_hughesYoungCriticalAffineBetaFullStripMajorant_eq._simp_1",
+            "axioms": [
+              "propext"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integral_hughesYoungCriticalAffineBetaFullStripMajorant_eq._simp_2",
+            "axioms": [
+              "propext"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integral_hughesYoungCriticalAffineBetaFullStripMajorant_eq._simp_3",
+            "axioms": [
+              "propext"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integral_hughesYoungCriticalAffineBetaFullStripMajorant_eq._simp_4",
+            "axioms": [
+              "propext"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integral_hughesYoungCriticalAffineBetaFullStripMajorant_eq._simp_5",
+            "axioms": [
+              "propext"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integral_hughesYoungCriticalAffineBetaFullStripMajorant_eq._simp_6",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integral_hughesYoungCriticalAffineBetaFullStripMajorant_eq._simp_7",
+            "axioms": [
+              "propext"
+            ]
+          },
+          {
+            "name": "RiemannZeta.GuthMaynard.integral_hughesYoungNonLowerActiveComplementSignedCentralAtHeight_eq._abel_1",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          }
+        ],
+        "count": 225,
+        "audit_method": "stock_exported_axioms_reimport_all_original_constants"
+      },
+      "info_enabled_per_command": true,
+      "info_dependent_linters_have_inputs": true,
+      "ilean_semantic_equivalence_to_stock": "not_yet_verified",
+      "eof_byte": 415362,
+      "counts": {
+        "warnings": 0,
+        "errors": 0,
+        "commands": 211
+      },
+      "check_kernel": true
+    },
+    "original_named_count": 194,
+    "original_all_kernel_count": 225,
+    "exact_names_and_individual_axiom_closures_match_frozen_baseline": true
+  },
+  "real_stock_built_marker": "ℹ [8840/8862] Built RiemannZeta.GuthMaynard.HughesYoungActiveComplementSourceLine (670s)",
+  "parent_log_progress_snapshot": {
+    "path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\build309\\20261003T110409529377Z_full_cone_stock_lake_with_cached_frontend_native_lake.log",
+    "bytes": 118471,
+    "sha256_at_snapshot": "be57a24afd0ddecb75b83ad329e32ca3ebd374e7cca5f1462095c4a3f1b58fe5",
+    "not_final_natural_completion": true
+  },
+  "official_new_artifact_kernel_replay_pending": true,
+  "entire_source_cone_build_pending": true,
+  "kernel_skip_disabled_trust_zero": true
+}

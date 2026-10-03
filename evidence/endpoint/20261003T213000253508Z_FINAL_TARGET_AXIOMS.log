@@ -1,0 +1,58 @@
+def Erdos374Research.HasRepresentation : ℕ → ℕ → Prop :=
+fun k n => ∃ s, s.card = k ∧ n ∈ s ∧ (∀ a ∈ s, 1 ≤ a ∧ a ≤ n) ∧ IsSquare (∏ a ∈ s, a.factorial)
+def Erdos374Research.IsInD : ℕ → ℕ → Prop :=
+fun k n =>
+  2 ≤ k ∧ Erdos374Research.HasRepresentation k n ∧ ∀ (j : ℕ), 2 ≤ j → j < k → ¬Erdos374Research.HasRepresentation j n
+def Erdos374Research.HasOrder : (ℕ → ℕ) → (ℕ → ℝ) → Prop :=
+fun f g => ∃ c C, 0 < c ∧ 0 < C ∧ ∀ᶠ (X : ℕ) in Filter.atTop, c * g X ≤ ↑(f X) ∧ ↑(f X) ≤ C * g X
+def Erdos374Research.OriginalGrowthConclusion : Prop :=
+(Erdos374Research.HasOrder (Erdos374Research.countD 3) fun X => √↑X) ∧
+  (Erdos374Research.HasOrder (Erdos374Research.countD 4) fun X => ↑X) ∧
+    (Erdos374Research.HasOrder (Erdos374Research.countD 5) fun X => ↑X) ∧
+      Erdos374Research.HasOrder (Erdos374Research.countD 6) fun X => ↑X
+Erdos374Research.erdos_374_original_growth : Erdos374Research.OriginalGrowthConclusion
+Erdos374Research.growth_three : Erdos374Research.HasOrder (Erdos374Research.countD 3) fun X => √↑X
+Erdos374Research.growth_four : Erdos374Research.HasOrder (Erdos374Research.countD 4) fun X => ↑X
+Erdos374Research.growth_five : Erdos374Research.HasOrder (Erdos374Research.countD 5) fun X => ↑X
+Erdos374Research.growth_six : Erdos374Research.HasOrder (Erdos374Research.countD 6) fun X => ↑X
+Erdos374Research.eventually_orderedTwoBlocks_small_parameters {α ε : ℝ} (hα : 0 ≤ α) (hαε : α < ε)
+  (hαsmall : α < 1 / 3) :
+  ∀ᶠ (n : ℕ) in Filter.atTop,
+    ∀ (a p m l₁ l₂ c : ℕ),
+      Nat.Prime p →
+        n = a * p →
+          ↑a ≤ ↑n ^ α →
+            Erdos374Research.OrderedTwoBlocks n m l₁ l₂ c →
+              ↑(max l₁ l₂) < ↑n ^ ε ∧ ↑c < ↑n ^ (2 * ε) ∧ ∃ j t, j < l₂ ∧ 1 ≤ t ∧ t < a ∧ m - j = t * p
+Erdos374Research.two_candidate_families_positive_density :
+  ∃ ε δ,
+    0 < ε ∧
+      ε < 1 / 100000 ∧
+        0 < δ ∧
+          (∀ᶠ (X : ℕ) in Filter.atTop,
+              δ * ↑X ≤
+                ↑(Erdos374Research.goodPrimeCofactorProducts Erdos374Research.EvenSquarefreeCofactor (ε / 2) (3 * ε)
+                      X).card) ∧
+            ∀ᶠ (X : ℕ) in Filter.atTop,
+              δ * ↑X ≤
+                ↑(Erdos374Research.goodPrimeCofactorProducts Erdos374Research.AdmissibleCofactor (ε / 2) (3 * ε) X).card
+'Erdos374Research.erdos_374_original_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos374Research.growth_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos374Research.growth_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos374Research.growth_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos374Research.growth_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos374Research.eventually_orderedTwoBlocks_small_parameters' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos374Research.two_candidate_families_positive_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos374Research.eventually_shortBlockExceptional_le_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos374Research.eventually_yudin_prime_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos374Research.eventually_nontrivialFactorialThreeCount_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Tao2026.vinogradovExponentialSumEstimate_unconditional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GafniTao.gafniTaoTheorem11_allIntervals_guthMaynard_native' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Tao2026.erdosSelfridgeSquare' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Tao2026.norm_primePolynomialCharacterCorrelation_le_of_monic_split_simple_root' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

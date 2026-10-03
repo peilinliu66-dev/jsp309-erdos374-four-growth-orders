@@ -1,0 +1,17 @@
+{
+  "schema": "jsp309.upstream-proof-overlay.v1",
+  "pinned_commit": "91604dfc9733555f0b762594cd434450728d3d8c",
+  "module": "Tao2026.SylvesterSchurPrimeCountCertificatesSixA",
+  "relative_path": "Tao2026/SylvesterSchurPrimeCountCertificatesSixA.lean",
+  "before_sha256": "e06e31a9e6999b61774ca7047d1e8838b1218d6694690aca5caa81451fc83180",
+  "before_bytes": 642,
+  "after_sha256": "b9dfd0d50f45624eb16eef5b87290f2c33189dcdff115b86de4a4c45ffa20552",
+  "after_bytes": 14671,
+  "replacement_before": "by decide",
+  "replacement_after": "short count increments from pi_1133",
+  "replacement_count": 8,
+  "statement_or_assumption_changes": false,
+  "dependency_version_changes": false,
+  "native_decide": false,
+  "new_axioms": false
+}

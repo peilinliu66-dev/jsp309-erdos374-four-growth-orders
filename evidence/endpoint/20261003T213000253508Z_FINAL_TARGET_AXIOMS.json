@@ -1,0 +1,28 @@
+{
+  "label": "FINAL_TARGET_AXIOMS",
+  "command": [
+    "lake",
+    "env",
+    "C:\\Users\\28983\\.elan\\toolchains\\leanprover--lean4---v4.30.0\\bin\\lean.exe",
+    "-t0",
+    "-j1",
+    "-DElab.async=false",
+    "-DautoImplicit=false",
+    "D:\\L309\\Riemann Zeta\\9. Zero Density, Large Values and Prime Transfer\\73 Tao, 2026\\Extension\\Erdos374Audit.lean"
+  ],
+  "cwd": "D:\\L309\\Riemann Zeta\\9. Zero Density, Large Values and Prime Transfer\\73 Tao, 2026\\Extension",
+  "cwd_argument": "D:\\L309\\Riemann Zeta\\9. Zero Density, Large Values and Prime Transfer\\73 Tao, 2026\\Extension",
+  "started_utc": "2026-10-03T21:30:00.253731+00:00",
+  "status": "completed",
+  "log_path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\build309\\20261003T213000253508Z_FINAL_TARGET_AXIOMS.log",
+  "environment": {
+    "LEAN_NUM_THREADS": "1",
+    "MATHLIB_CACHE_DIR": "D:/CodexBuilds/JSP000309_20261003/mathlib_cache",
+    "LAKE_ARTIFACT_CACHE": "false"
+  },
+  "pid": 5640,
+  "natural_exit_code": 0,
+  "elapsed_seconds": 23.882032599998638,
+  "ended_utc": "2026-10-03T21:30:24.137598+00:00",
+  "log_sha256": "1a60c7974c21b507083b24ad46bc7ed7a40de003164ecfb716763ef1fd9c3242"
+}

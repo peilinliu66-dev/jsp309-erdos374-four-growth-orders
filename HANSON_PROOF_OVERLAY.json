@@ -1,0 +1,17 @@
+{
+  "schema": "jsp309.upstream-proof-overlay.v1",
+  "pinned_commit": "91604dfc9733555f0b762594cd434450728d3d8c",
+  "module": "Tao2026.ErdosSelfridgeHanson",
+  "relative_path": "Tao2026/ErdosSelfridgeHanson.lean",
+  "before_sha256": "8a02d5cbb402fcd213a9528c3d6ca9274a1deee545ffa4e5dad4f94a83f2f082",
+  "before_bytes": 35862,
+  "after_sha256": "9ee2d58fbd0d5ae374ce8130872a583d220bc3b22f74b1d133868a67946cfcee",
+  "after_bytes": 179493,
+  "replacement_before": "initial absorption decide; 25 numerical certificates (by decide)",
+  "replacement_after": "initial absorption norm_num; 25 shared prefix certificates; 112 short blocks, 113 prefixes and two generic private proved helpers; Mathlib.Tactic.NormNum.Prime and BigOperators imports",
+  "replacement_count": 26,
+  "statement_or_assumption_changes": false,
+  "dependency_version_changes": false,
+  "native_decide": false,
+  "new_axioms": false
+}

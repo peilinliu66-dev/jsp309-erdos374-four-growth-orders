@@ -1,0 +1,48 @@
+{
+  "schema": "jsp309.real-clean-heavy-kernel-result.v1",
+  "status": "OFFICIAL_KERNEL_REPLAY_PASS_FOR_NEW_CLEAN_ARTIFACT_FULL_ROOT_PENDING",
+  "utc": "2026-10-03T11:52:10.929285+00:00",
+  "module": "RiemannZeta.GuthMaynard.HughesYoungActiveComplementSourceLine",
+  "binding_sha256": "272898f844f977e6826a230b772c235f1a3d14a203e2c66791a8c427812781cf",
+  "olean_sha256": "a48abb2c7747ff57eaa891d2cee634bdd2c13b2a70f056b405569fd110bbc52b",
+  "natural_exit_code": 0,
+  "official_kernel_replay_pass": true,
+  "exact_marker": "replaying RiemannZeta.GuthMaynard.HughesYoungActiveComplementSourceLine",
+  "record": {
+    "path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\build309\\20261003T114930032180Z_riemann_real_clean_official_kernel_replay.json",
+    "bytes": 2346,
+    "sha256": "a403f36c94925bf34934585a90f16e5b77b4b2be23e4ba63f2144c5b3d848604"
+  },
+  "raw_log": {
+    "path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\build309\\20261003T114930032180Z_riemann_real_clean_official_kernel_replay.log",
+    "bytes": 72,
+    "sha256": "625fa26a3a8e587b575fddd684610349f21f49ab21e9d89d5ce2c196c2481b82"
+  },
+  "resource_curve": {
+    "path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\build309\\20261003T114949180091Z_RESOURCE_GUARD_41628.jsonl",
+    "bytes": 35390,
+    "sha256": "0dc8324fd1ea17b768aca4afead3e09b6d63bd80c5f68293f5dfd999016bac9a"
+  },
+  "binding": {
+    "path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\build309\\REAL_CLEAN_KERNEL_INPUT_BINDINGS.json",
+    "bytes": 6680,
+    "sha256": "272898f844f977e6826a230b772c235f1a3d14a203e2c66791a8c427812781cf"
+  },
+  "guard_source": {
+    "path": "C:\\Users\\28983\\Documents\\ChatGPT\\孙宇晨奖\\JSP000309_audit_20261003\\verification\\build309\\resource_guard309.py",
+    "bytes": 47959,
+    "sha256": "a964eb76877ea16a003f846f549f8913ab7dbcfb53472f799134e92491658156"
+  },
+  "inputs_unchanged_before_after": true,
+  "command": [
+    "C:/Users/28983/.elan/toolchains/leanprover--lean4---v4.30.0/bin/leanchecker.exe",
+    "--verbose",
+    "RiemannZeta.GuthMaynard.HughesYoungActiveComplementSourceLine"
+  ],
+  "environment": {
+    "LEAN_NUM_THREADS": "1",
+    "LEAN_PATH": "D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\LeanArchitect\\.lake\\build\\lib\\lean;D:\\CodexBuilds\\JSP000309_20261003\\output\\pnt\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\Cli\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\batteries\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\Qq\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\aesop\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\proofwidgets\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\importGraph\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\LeanSearchClient\\.lake\\build\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\plausible\\.lake\\build\\lib\\lean;D:\\CodexBuilds\\JSP000309_20261003\\output\\gafnitao\\lib\\lean;D:\\L309\\.lake\\gafni-tao-node74-extension-packages\\mathlib\\.lake\\build\\lib\\lean;D:\\L309\\Riemann Zeta\\9. Zero Density, Large Values and Prime Transfer\\73 Tao, 2026\\Extension\\.lake\\build\\lib\\lean;c:\\Users\\28983\\.elan\\toolchains\\leanprover--lean4---v4.30.0\\lib\\lean"
+  },
+  "elapsed_seconds": 142.80073500005528,
+  "whole_cone_build_pass": false
+}

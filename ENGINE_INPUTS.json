@@ -1,0 +1,120 @@
+{
+  "schema": "jsp309.engine-inputs.v1",
+  "status": "verified",
+  "pins": {
+    "upstream_commit": "91604dfc9733555f0b762594cd434450728d3d8c",
+    "mathlib_commit": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+    "toolchain": "leanprover/lean4:v4.30.0",
+    "actual_compiler_commit": "d024af099ca4bf2c86f649261ebf59565dc8c622",
+    "git_dependencies": {
+      "Cli": {
+        "url": "https://github.com/leanprover/lean4-cli",
+        "rev": "6b907cf12b2e445ccb7c24bc208ef04a1f39e84c"
+      },
+      "LeanArchitect": {
+        "url": "https://github.com/hanwenzhu/LeanArchitect.git",
+        "rev": "b72ae37b08d264cf371f164f4ba60c5257c17727"
+      },
+      "LeanSearchClient": {
+        "url": "https://github.com/leanprover-community/LeanSearchClient",
+        "rev": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843"
+      },
+      "Qq": {
+        "url": "https://github.com/leanprover-community/quote4",
+        "rev": "a6e6c34c4ef182f83b219a3a5a385f51f44bdc4c"
+      },
+      "aesop": {
+        "url": "https://github.com/leanprover-community/aesop",
+        "rev": "558915ae105bfd8074e22d597613d1961822adc2"
+      },
+      "batteries": {
+        "url": "https://github.com/leanprover-community/batteries",
+        "rev": "32dc18cde3684679f3c003de608743b57498c56f"
+      },
+      "importGraph": {
+        "url": "https://github.com/leanprover-community/import-graph",
+        "rev": "515cf9d0c00ece5e661f6de4326a53dedc1e8ea1"
+      },
+      "mathlib": {
+        "url": "https://github.com/leanprover-community/mathlib4.git",
+        "rev": "c5ea00351c28e24afc9f0f84379aa41082b1188f"
+      },
+      "plausible": {
+        "url": "https://github.com/leanprover-community/plausible",
+        "rev": "a456461b368b71d2accd95234832cd9c174b5437"
+      },
+      "proofwidgets": {
+        "url": "https://github.com/leanprover-community/ProofWidgets4",
+        "rev": "a84b3e2475d5c5ab979567b1ad8aea21b764bcf8"
+      }
+    }
+  },
+  "files": [
+    {
+      "role": "baseline_report_inventory",
+      "path": "verification/adapted309/out/HEAVY_DRIVER_REPORT.json",
+      "bytes": 39905,
+      "sha256": "15facfcaa360ae685ad43e9d25076e8e0cb57abc95377709d77b6b53ec6d6fd7"
+    },
+    {
+      "role": "baseline_request_inventory",
+      "path": "verification/adapted309/Heavy.request.json",
+      "bytes": 21661,
+      "sha256": "e3d5ce1ea103d235e6d5fcfd81a98dc7b5545b707b28d6034b55f5c0dd660df1"
+    },
+    {
+      "role": "cached_frontend_lean",
+      "path": "verification/lowinfo309_cached/SequentialDriver.lean",
+      "bytes": 36133,
+      "sha256": "26f73083d233b617829bbf790dcfb8cda4a1a821f9b5e12776ef2cda38d35b16"
+    },
+    {
+      "role": "dispatcher_python",
+      "path": "verification/lakefront309/lake_dispatcher309_real_candidate.py",
+      "bytes": 49304,
+      "sha256": "b53aac7e7311c3d38ab0590105b5f0c7cae423467c3f1415539a7d8ce229d9a3"
+    },
+    {
+      "role": "hash_helper_python",
+      "path": "verification/lakefront309/hash_inputs309.py",
+      "bytes": 657,
+      "sha256": "519549262c2e5043de88f45e86deb462ce63e71b3da5319d1e21a24e9fa5bc8d"
+    },
+    {
+      "role": "lake_launcher_lean",
+      "path": "verification/lakefront309/LakeFrontend309.lean",
+      "bytes": 7577,
+      "sha256": "350a259e5c49e30363c596543f37cb013aece02f96023857826ed9fc23367f16"
+    },
+    {
+      "role": "native_bridge_executable",
+      "path": "verification/lakefront309/DispatchBridge309.exe",
+      "bytes": 11264,
+      "sha256": "30cbbe65657b6fb539072c71a6d6ff74d5a129776549c9b26728d5cfb0aa08c0"
+    },
+    {
+      "role": "native_bridge_source",
+      "path": "verification/lakefront309/DispatchBridge309.cs",
+      "bytes": 12356,
+      "sha256": "ba82080bf1328baba61f26c335477e52c0586e364c49f01799c5a52acfb939d1"
+    }
+  ],
+  "toolchain_runtime": {
+    "stock_lean": {
+      "path": "bin/lean.exe",
+      "sha256": "8132256d484b8ecc4561bec70abd1271f4c0d03badbc3bc272f6c4053af9fdbc"
+    },
+    "lake_shared": {
+      "path": "bin/libLake_shared.dll",
+      "sha256": "95368a6f8c32697fd2ec0adf11549944730c7e86dd80d41f8ba0e6c00216602b"
+    }
+  },
+  "heavy_target": {
+    "package": "GafniTaoFrozen",
+    "library": "RiemannZeta",
+    "module": "RiemannZeta.GuthMaynard.HughesYoungActiveComplementSourceLine",
+    "source_sha256": "a39dd8053b3c5ecfe24d673fddb4965e8d355d2d584dc1ef0a3407e3a14f6a9b",
+    "source_bytes": 415362
+  },
+  "scope": "Windows x64 compiler adaptation; two engine Lean sources are outside the 68 mathematical source/audit files."
+}

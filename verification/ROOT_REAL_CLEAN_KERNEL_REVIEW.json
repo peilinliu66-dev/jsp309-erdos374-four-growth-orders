@@ -1,0 +1,19 @@
+{
+  "status": "ROOT_NEW_CLEAN_HEAVY_OFFICIAL_KERNEL_EVIDENCE_VERIFIED_FULL_TARGET_PENDING",
+  "result_sha256": "de005bcbe9d912ce1e1d544e1b86c9f83037668ebaad35b5ff76e2db1f291200",
+  "olean_sha256": "a48abb2c7747ff57eaa891d2cee634bdd2c13b2a70f056b405569fd110bbc52b",
+  "official_kernel_replay_pass": true,
+  "natural_exit_code": 0,
+  "whole_cone_build_pass": false,
+  "artifact_checkpoint_required": {
+    "utc": "20261003T113253814625Z",
+    "label": "ACTUAL_HEAVY_CLEAN_COMPILE_ALL225_STD3_FULL_TARGET_PENDING",
+    "path": "C:\\Users\\28983\\Documents\\ChatGPT\\\u5b59\u5b87\u6668\u5956\\JSP000309_audit_20261003\\checkpoints\\20261003T113253814625Z_ACTUAL_HEAVY_CLEAN_COMPILE_ALL225_STD3_FULL_TARGET_PENDING.zip",
+    "bytes": 186556785,
+    "sha256": "825d1f47730cce7486d25c999e47f0e2530644558dbccc49920c299e129ccfb4",
+    "members": 28,
+    "crc": "PASS",
+    "member_sha256": "PASS",
+    "requires_full_checkpoint_sha256": "04b6ea3e3bc64dfbdd1ef46078b2ac67a716ea4c9bd4ce446013ca160c7fb6ad"
+  }
+}
